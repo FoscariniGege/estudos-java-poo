@@ -1,0 +1,27 @@
+☕ Exercícios de Java - Medidas do Retângulo (POO)
+Este repositório guarda mais um passo na minha jornada com Programação Orientada a Objetos (POO) em Java. O foco aqui foi encapsular cálculos matemáticos dentro de uma classe própria, mantendo o programa principal extremamente limpo e direto.
+
+🚀 O que eu estava aprendendo
+Neste exercício, eu consolidei a ideia de que um objeto deve ser o único responsável por manipular e calcular os seus próprios dados. Em vez de fazer contas e formatar textos no meio do código principal, eu criei uma entidade independente que já sabe fazer tudo isso sozinha.
+
+Nesta etapa, eu apliquei:
+
+Encapsulamento de Lógica: Os cálculos de Área, Perímetro e Diagonal foram isolados dentro de métodos específicos na classe Retangulo.
+
+Uso da classe Math: Aplicação prática do Teorema de Pitágoras usando a função Math.sqrt() para encontrar o valor da diagonal do retângulo.
+
+Delegação e Clean Code: O método main ficou super enxuto, com uma única responsabilidade: interagir com o usuário (usando Scanner).
+
+Formatação embutida: Toda a apresentação visual dos resultados foi resolvida dentro do próprio objeto através da sobrescrita do método toString() combinado com String.format().
+
+(Nota de evolução: Foi muito gratificante ver o quanto o código principal encolheu! Delegar o trabalho pesado e a formatação para a própria classe do retângulo mostrou na prática o verdadeiro poder e a elegância da Orientação a Objetos.)
+
+💻 Exercício Resolvido
+Calculadora de Retângulo: Um programa que recebe a largura e a altura de um retângulo digitadas pelo usuário. A partir de apenas dois dados, o objeto calcula e imprime automaticamente a sua Área (base x altura), o seu Perímetro (soma de todos os lados) e a sua Diagonal.
+
+🛠️ Tecnologias Utilizadas
+Java
+
+Ferramentas nativas: Scanner (leitura de dados), String.format (formatação de texto) e Math.sqrt (cálculo de raiz quadrada)
+
+Fundamentos de POO: Atributos, métodos de instância, tipos de retorno (double) e método toString().
